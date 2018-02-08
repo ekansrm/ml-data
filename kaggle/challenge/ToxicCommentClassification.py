@@ -1,6 +1,6 @@
 import os
 
-_prefix = ['~', '.ml', 'kaggle', 'ToxicCommentClassification']
+_prefix = ['~', '.ml', 'kaggle', 'challenge', 'ToxicCommentClassification']
 
 
 def filepath(path: str):
