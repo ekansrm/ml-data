@@ -4,7 +4,7 @@ _prefix = ['~', '.ml', 'kaggle', 'challenge', 'ToxicCommentClassification']
 
 
 def filepath(path: str):
-    return os.path.join(*_prefix, path)
+    return os.path.expanduser(os.path.join(*_prefix, path))
 
 
 train_filename = 'train.csv'
